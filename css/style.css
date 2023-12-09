@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+header, footer{
+    display: flex;
+    height: 160px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(239, 243, 0.2),rgba(0,0,255,0.4),rgb(239, 243, 0.2))
+}
+section{
+    background-color: #6b3787;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;   
+}
+#map{
+    width: 500px;
+    height: 400px;
+}
+video, iframe{
+    width: 500px;
+    height: 500px;
+}
+audio{
+    width: 500px;
+    height: 50px;
+}
